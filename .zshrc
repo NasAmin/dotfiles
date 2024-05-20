@@ -81,6 +81,7 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 # Aliases
 alias ls='ls -alGFh --color'
 alias vim='nvim'
+alias vi='nvim'
 alias c='clear'
 alias gsc="git switch -c"
 alias gs="git switch "
