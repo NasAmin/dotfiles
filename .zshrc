@@ -89,6 +89,7 @@ alias gpp="git pull --prune"
 alias gaa="git add ."
 alias gpf="git push --force"
 alias gcm="git commit -m"
+alias gl='git --no-pager log -25 --pretty=format:"%C(yellow)%h %C(green)%ad%C(auto)%d %Creset%s %C(cyan)%aN" --date=short --graph --decorate'
 alias tk="tsh kubectl"
 alias tkp="tsh kubectl get pods"
 alias kgn="kubectl get nodes"
