@@ -96,6 +96,9 @@ alias kgn="kubectl get nodes"
 alias kdr="kubectl drain --delete-emptydir-data=true --ignore-daemonsets=true"
 alias python=/usr/bin/python3
 
+# Environment variables
+export KUBE_EDITOR="nvim"
+
 # Shell integrations. Make sure fzf and zoxide are installed through your package manager.
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
