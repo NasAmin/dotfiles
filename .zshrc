@@ -86,6 +86,7 @@ alias c='clear'
 alias gsc="git switch -c"
 alias gs="git switch "
 alias gpp="git pull --prune"
+alias gpr="git pull --rebase"
 alias gaa="git add ."
 alias gpf="git push --force"
 alias gcm="git commit -m"
