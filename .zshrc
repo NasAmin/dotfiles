@@ -95,6 +95,8 @@ alias tk="tsh kubectl"
 alias tkp="tsh kubectl get pods"
 alias kgn="kubectl get nodes"
 alias kdr="kubectl drain --delete-emptydir-data=true --ignore-daemonsets=true"
+alias kx="kubectx"
+alias kns="kubens"
 alias python=/usr/bin/python3
 
 # Environment variables
